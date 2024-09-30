@@ -1,0 +1,41 @@
+.btn {
+  background-color: green;
+  color: aliceblue;
+  border: none;
+  padding: 5px 12px;
+  border-radius: 5px;
+}
+.rst {
+  background-color: red;
+  color: antiquewhite;
+  padding: 2px 10px;
+  border-radius: 5px;
+}
+.themeD {
+  background-color: antiquewhite;
+  color: black;
+  border: none;
+  border-radius: 8px;
+  padding: 2px 8px;
+  transition: 1s;
+}
+.themeW {
+  background-color: #1b1f20;
+  color: antiquewhite;
+  border: none;
+  border-radius: 8px;
+  padding: 2px 8px;
+  transition: 1s;
+}
+.themeW:hover {
+  cursor: pointer;
+  transition: 1.5;
+  color: #1b1f20;
+  background-color: #eaeaea;
+}
+.themeD:hover {
+  cursor: pointer;
+  transition: 1.5;
+  color: antiquewhite;
+  background-color: #1b1f20;
+}
